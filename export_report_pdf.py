@@ -153,17 +153,13 @@ body {{
 }}
 
 .cover-content {{
-    background: rgba(255, 255, 255, 0.1); /* พื้นหลังโปร่งแสง */
-    backdrop-filter: blur(10px);
-    padding: 40px;
-    border-radius: 4px;
-    width: fit-content;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 2cm;
+    width: 100%;
 }}
 
 .cover-page h1 {{
     font-family: var(--font-english);
-    font-size: 38pt;
+    font-size: 40pt;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0;
@@ -175,22 +171,22 @@ body {{
 
 .cover-page h2 {{
     font-family: var(--font-english);
-    font-size: 18pt;
+    font-size: 20pt;
     font-weight: 300;
-    margin: 15px 0 0 0;
+    margin: 20px 0 0 0;
     color: rgba(255,255,255,0.9);
     border: none;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     text-transform: uppercase;
 }}
 
 .cover-info {{
-    background: rgba(255, 255, 255, 0.9); /* สีขาวโปร่งแสง */
-    color: var(--text-color);
-    padding: 25px 40px;
-    border: none; /* เอากรอบออก */
-    width: 60%; /* ขยายหน้ากว้างตามภาพ */
-    margin-bottom: 2cm;
+    background: transparent; /* ลบพื้นหลังออก */
+    color: white; /* เปลี่ยนเป็นสีขาวเพื่อให้เห็นชัดบนพื้นหลังเข้ม */
+    padding: 0;
+    border: none;
+    width: 100%;
+    margin-bottom: 3cm; /* เว้นระยะจากขอบล่าง */
     box-shadow: none;
 }}
 
