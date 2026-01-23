@@ -17,16 +17,61 @@
 
 <div class="toc-list">
 
-| ลำดับ | หัวข้อ | หน้า |
-|:---:|:---|:---:|
-| 1 | ส่วนที่ 1: เอกสารด้านการขาย | 3 |
-| 2 | ส่วนที่ 2: เอกสารสัญญาและข้อตกลง | 4 |
-| 3 | ส่วนที่ 3: เอกสารด้านผลิตภัณฑ์และเทคนิค | 5 |
-| 4 | ส่วนที่ 4: เอกสารนิติบุคคล | 6 |
-| 5 | ส่วนที่ 5: เอกสารด้านการเงิน | 7 |
-| 6 | ส่วนที่ 6: เอกสารการสนับสนุนการตลาด | 8 |
-| 7 | ส่วนที่ 7: เอกสารการประสานงาน | 9 |
-| 8 | ส่วนที่ 8: เอกสารอื่นๆ | 10 |
+<div class="toc-item">
+  <span class="toc-number">1.</span>
+  <span class="toc-text">ส่วนที่ 1: เอกสารด้านการขาย</span>
+  <span class="toc-dots"></span>
+  <span class="toc-page">3</span>
+</div>
+
+<div class="toc-item">
+  <span class="toc-number">2.</span>
+  <span class="toc-text">ส่วนที่ 2: เอกสารสัญญาและข้อตกลง</span>
+  <span class="toc-dots"></span>
+  <span class="toc-page">4</span>
+</div>
+
+<div class="toc-item">
+  <span class="toc-number">3.</span>
+  <span class="toc-text">ส่วนที่ 3: เอกสารด้านผลิตภัณฑ์และเทคนิค</span>
+  <span class="toc-dots"></span>
+  <span class="toc-page">5</span>
+</div>
+
+<div class="toc-item">
+  <span class="toc-number">4.</span>
+  <span class="toc-text">ส่วนที่ 4: เอกสารนิติบุคคล</span>
+  <span class="toc-dots"></span>
+  <span class="toc-page">6</span>
+</div>
+
+<div class="toc-item">
+  <span class="toc-number">5.</span>
+  <span class="toc-text">ส่วนที่ 5: เอกสารด้านการเงิน</span>
+  <span class="toc-dots"></span>
+  <span class="toc-page">7</span>
+</div>
+
+<div class="toc-item">
+  <span class="toc-number">6.</span>
+  <span class="toc-text">ส่วนที่ 6: เอกสารการสนับสนุนการตลาด</span>
+  <span class="toc-dots"></span>
+  <span class="toc-page">8</span>
+</div>
+
+<div class="toc-item">
+  <span class="toc-number">7.</span>
+  <span class="toc-text">ส่วนที่ 7: เอกสารการประสานงาน</span>
+  <span class="toc-dots"></span>
+  <span class="toc-page">9</span>
+</div>
+
+<div class="toc-item">
+  <span class="toc-number">8.</span>
+  <span class="toc-text">ส่วนที่ 8: เอกสารอื่นๆ</span>
+  <span class="toc-dots"></span>
+  <span class="toc-page">10</span>
+</div>
 
 </div>
 

@@ -145,20 +145,25 @@ body {{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding: 3cm;
+    justify-content: space-between; /* แยกหัวข้อกับข้อมูลลงบน-ล่าง */
+    padding: 3cm 2cm;
     box-sizing: border-box;
     color: white;
-    background: linear-gradient(135deg, rgba(26,77,46,0.85) 0%, rgba(0,0,0,0.6) 100%);
+    background: linear-gradient(135deg, rgba(26,77,46,0.7) 0%, rgba(0,0,0,0.4) 100%);
 }}
 
 .cover-content {{
-    margin-bottom: 2cm;
+    background: rgba(255, 255, 255, 0.1); /* พื้นหลังโปร่งแสง */
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 4px;
+    width: fit-content;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }}
 
 .cover-page h1 {{
     font-family: var(--font-english);
-    font-size: 42pt;
+    font-size: 38pt;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0;
@@ -166,12 +171,11 @@ body {{
     color: white;
     letter-spacing: 2px;
     border: none;
-    text-shadow: 0 3px 15px rgba(0,0,0,0.3);
 }}
 
 .cover-page h2 {{
     font-family: var(--font-english);
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: 300;
     margin: 15px 0 0 0;
     color: rgba(255,255,255,0.9);
@@ -181,12 +185,13 @@ body {{
 }}
 
 .cover-info {{
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.9); /* สีขาวโปร่งแสง */
     color: var(--text-color);
-    padding: 25px 35px;
-    border-left: 6px solid var(--primary-color);
-    width: fit-content;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    padding: 25px 40px;
+    border: none; /* เอากรอบออก */
+    width: 60%; /* ขยายหน้ากว้างตามภาพ */
+    margin-bottom: 2cm;
+    box-shadow: none;
 }}
 
 .cover-info p {{
@@ -197,12 +202,11 @@ body {{
 
 /* Table of Contents */
 .toc {{
-    background: linear-gradient(135deg, #fafbfc 0%, #f1f5f9 100%);
-    padding: 2.5cm;
-    border: 1px solid var(--border-color);
+    background: transparent;
+    padding: 1.5cm 0;
+    border: none;
     margin: 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    box-shadow: none;
 }}
 
 .toc-title {{
@@ -215,24 +219,50 @@ body {{
     padding-bottom: 15px;
 }}
 
-.toc-list table {{
-    width: 100%;
-    border: none;
-    box-shadow: none;
+.toc-list {{
+    margin: 0;
+    padding: 0;
 }}
 
-.toc-list th {{
-    background: var(--primary-color);
-    color: white;
-    font-family: var(--font-thai-heading);
+.toc-item {{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 18px;
+    line-height: 1.5;
+}}
+
+.toc-number {{
+    font-family: var(--font-thai-body);
+    font-weight: 600;
+    color: var(--primary-color);
+    min-width: 30px;
     font-size: 11pt;
 }}
 
-.toc-list td {{
+.toc-text {{
     font-family: var(--font-thai-body);
     font-size: 11pt;
-    padding: 15px;
-    border-bottom: 1px dashed #ddd;
+    color: var(--text-color);
+}}
+
+.toc-dots {{
+    flex-grow: 1;
+    border-bottom: 1.5px dotted #ccc;
+    margin: 0 15px 3px 15px;
+    min-width: 30px;
+}}
+
+.toc-page {{
+    font-family: var(--font-english);
+    font-weight: 600;
+    color: var(--primary-color);
+    min-width: 30px;
+    text-align: right;
+    font-size: 11pt;
+}}
+
+.toc-list table {{
+    display: none;
 }}
 
 /* Typography */
