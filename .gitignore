@@ -1,0 +1,13 @@
+# PDF Exports
+reports/output/
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating System
+.DS_Store
+Thumbs.db
